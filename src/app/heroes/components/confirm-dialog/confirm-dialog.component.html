@@ -1,0 +1,11 @@
+<H1 matDialogTitle>¿ESTA SEGURO?</H1>
+
+<div matDialogContent>   
+    <p>Este proceso no es reversible, ¿desea eliminar a {{ data.superhero }}?</p>
+</div>
+
+<div matDialogActions>   
+    <button mat-button (click)="onNoClick()">No thanks</button>
+    <button mat-button (click)="onConfirm()">OK</button>
+
+</div>
